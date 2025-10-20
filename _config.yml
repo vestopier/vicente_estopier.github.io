@@ -7,27 +7,26 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
-site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Academic & Professional Profile"
-title_separator          : "-"
-name                     : &name "Vicente Estopier"
-description              : &description "PhD researcher and engineer in medical image analysis and computational modeling"
-url                      : "https://vestopier.github.io"
-baseurl                  : "" # since your repo is a user/organization site, leave this empty
-repository               : "vestopier/vicente-estopier.github.io"
+locale         : "en-US"
+site_theme     : "default" # Currently available options are "default", "air"
+title          : "Vicente ESTOPIER CASTILLO"
+title_separator: "-"
+name           : &name "Your Name"
+description    : &description "Your Name's academic portfolio"   # default description
+url            : https://academicpages.github.io
+baseurl        : "" # the subpath of your site, e.g. "/blog"
+repository     : "academicpages/academicpages.github.io"
 
 # Site Author
 author:
-  avatar           : "images/Me.jpg"  # make sure the image exists here
-  name             : "Vicente ESTOPIER CASTILLO"
-  pronouns         : "he/him"
-  bio              : "PhD researcher in biomedical image analysis, mechatronics, and statistical modeling."
-  location         : "Grenoble, France"
-  employer         : "INRIA / INSERM"
-  uri              : "https://vestopier.github.io"  
-  # Main contact
-  email            : "ve.estopier@gmail.com"
+  avatar       : "images/Me.jpg"
+  name         : "Your Sidebar Name"
+  pronouns     : # example: "she/her"
+  bio          : "Short biography for the left-hand sidebar"
+  location     : "Earth"
+  employer     : "Red Brick University"
+  uri          : # URL
+  email        : "none@example.org"
   # Institutional / temporary addresses (not shown by default)
   #alt_emails:
   #  - "vicente.estopier-castillo@inria.fr"
