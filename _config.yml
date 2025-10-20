@@ -9,28 +9,30 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Vicente ESTOPIER CASTILLO"
+title                    : "Academic & Professional Profile"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
-                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+name                     : &name "Vicente Estopier"
+description              : &description "PhD researcher and engineer in medical image analysis and computational modeling"
+url                      : "https://vestopier.github.io"
+baseurl                  : "" # since your repo is a user/organization site, leave this empty
+repository               : "vestopier/vicente-estopier.github.io"
 
-# Site Author - The following control what appear as part of the author content on the side bar.
-#               If a field is blank the icon and link will not appear, otherwise it will be shown.
-#               Additional customization can be done by editing /_includes/author-profile.html
+# Site Author
 author:
-  # Biographic information
-  avatar           : "images/Me.jpg"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  avatar           : "images/Me.jpg"  # make sure the image exists here
+  name             : "Vicente ESTOPIER CASTILLO"
+  pronouns         : "he/him"
+  bio              : "PhD researcher in biomedical image analysis, mechatronics, and statistical modeling."
+  location         : "Grenoble, France"
+  employer         : "INRIA / INSERM"
+  uri              : "https://vestopier.github.io"  
+  # Main contact
+  email            : "ve.estopier@gmail.com"
+  # Institutional / temporary addresses (not shown by default)
+  alt_emails:
+    - "vicente.estopier-castillo@inria.fr"
+    - "vicente.estopier-castillo@inserm.fr"
+    - "vicente.estopier-castillo@univ-grenoble-alpes.fr"
 
   # Academic websites
   academia         : # URL
