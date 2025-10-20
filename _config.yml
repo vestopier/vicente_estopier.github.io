@@ -29,10 +29,10 @@ author:
   # Main contact
   email            : "ve.estopier@gmail.com"
   # Institutional / temporary addresses (not shown by default)
-  alt_emails:
-    - "vicente.estopier-castillo@inria.fr"
-    - "vicente.estopier-castillo@inserm.fr"
-    - "vicente.estopier-castillo@univ-grenoble-alpes.fr"
+  #alt_emails:
+  #  - "vicente.estopier-castillo@inria.fr"
+  #  - "vicente.estopier-castillo@inserm.fr"
+  #  - "vicente.estopier-castillo@univ-grenoble-alpes.fr"
 
   # Academic websites
   academia         : # URL
